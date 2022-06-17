@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgyellow"
+    tools:context=".activities.RegisterActivity">
+
+    <ImageView
+        android:id="@+id/ivlogo"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:src="@drawable/logo">
+
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tvlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivlogo"
+        android:gravity="center_horizontal"
+        android:text="Sign up successful!"
+        android:textColor="#fff"
+        android:textSize="@dimen/_30ssp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/tvcheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvlogin"
+        android:gravity="center_horizontal"
+        android:text="Please check your email to verify account"
+        android:textColor="#fff"
+        android:textSize="@dimen/_15ssp"
+        android:textStyle="bold"></TextView>
+
+    <Button
+        android:id="@+id/btn_continue"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:background="@drawable/border_button_blue"
+        android:padding="@dimen/_10sdp"
+        android:text="Continue"
+        android:textColor="@color/btn_textcolor"
+        android:textSize="@dimen/_25ssp"
+        android:textStyle="bold">
+
+    </Button>
+
+
+    <LinearLayout
+        android:id="@+id/linear_icons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bgbottom"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:background="@drawable/fb">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:background="@drawable/twitter">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:background="@drawable/insta">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:background="@drawable/google">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/bgbottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/border_black">
+
+        <View
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_3sdp"
+            android:layout_centerInParent="true"
+            android:background="#000"></View>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

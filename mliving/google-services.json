@@ -1,0 +1,267 @@
+{
+  "project_info": {
+    "project_number": "109389653135",
+    "firebase_url": "https://ehomeservices-37a63.firebaseio.com",
+    "project_id": "ehomeservices-37a63",
+    "storage_bucket": "ehomeservices-37a63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109389653135:android:a7d3572624a2dd5cecfcfa",
+        "android_client_info": {
+          "package_name": "ABgharpay.in"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109389653135-tj09qapeluq88gpqt40a4laeo2m5j0eq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ABgharpay.in",
+            "certificate_hash": "5623811c7491095c4d7872d24ec13a89fe697ccc"
+          }
+        },
+        {
+          "client_id": "109389653135-66n6h8unv782dbm6q3tg7dl6vdddna0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGVMFMLBqcQad3JWUajmaDPouf43RaJLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109389653135-66n6h8unv782dbm6q3tg7dl6vdddna0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109389653135:android:f31a42e0221b9c65ecfcfa",
+        "android_client_info": {
+          "package_name": "co.netguru.android.chatandroll"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109389653135-66n6h8unv782dbm6q3tg7dl6vdddna0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGVMFMLBqcQad3JWUajmaDPouf43RaJLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109389653135-66n6h8unv782dbm6q3tg7dl6vdddna0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109389653135:android:e36e1eea987b9056",
+        "android_client_info": {
+          "package_name": "com.karimapps.accidentdetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109389653135-66n6h8unv782dbm6q3tg7dl6vdddna0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGVMFMLBqcQad3JWUajmaDPouf43RaJLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109389653135-66n6h8unv782dbm6q3tg7dl6vdddna0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109389653135:android:535e6b76f0a97c47ecfcfa",
+        "android_client_info": {
+          "package_name": "com.karimapps.doctor_live"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109389653135-66n6h8unv782dbm6q3tg7dl6vdddna0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGVMFMLBqcQad3JWUajmaDPouf43RaJLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109389653135-66n6h8unv782dbm6q3tg7dl6vdddna0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109389653135:android:13bb1d68054a8969",
+        "android_client_info": {
+          "package_name": "com.karimapps.ehomeservices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109389653135-66n6h8unv782dbm6q3tg7dl6vdddna0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGVMFMLBqcQad3JWUajmaDPouf43RaJLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109389653135-66n6h8unv782dbm6q3tg7dl6vdddna0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109389653135:android:c702f28889702652ecfcfa",
+        "android_client_info": {
+          "package_name": "com.karimapps.mliving"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109389653135-ej0kmtu4m06b4ep8gkir8nde0ngidj7i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.karimapps.mliving",
+            "certificate_hash": "5623811c7491095c4d7872d24ec13a89fe697ccc"
+          }
+        },
+        {
+          "client_id": "109389653135-66n6h8unv782dbm6q3tg7dl6vdddna0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGVMFMLBqcQad3JWUajmaDPouf43RaJLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109389653135-66n6h8unv782dbm6q3tg7dl6vdddna0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109389653135:android:dec2ab5cfaf9e3cbecfcfa",
+        "android_client_info": {
+          "package_name": "com.karimapps.sokaforum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109389653135-66n6h8unv782dbm6q3tg7dl6vdddna0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGVMFMLBqcQad3JWUajmaDPouf43RaJLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109389653135-66n6h8unv782dbm6q3tg7dl6vdddna0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109389653135:android:d0c4878b6759474fecfcfa",
+        "android_client_info": {
+          "package_name": "in.abgharpay.ab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109389653135-obtr9u2qia1els884q7j71hd7mm6s5hj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.abgharpay.ab",
+            "certificate_hash": "5623811c7491095c4d7872d24ec13a89fe697ccc"
+          }
+        },
+        {
+          "client_id": "109389653135-66n6h8unv782dbm6q3tg7dl6vdddna0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGVMFMLBqcQad3JWUajmaDPouf43RaJLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109389653135-66n6h8unv782dbm6q3tg7dl6vdddna0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

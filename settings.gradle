@@ -1,0 +1,2 @@
+include ':app', ':mliving'
+rootProject.name='MLiving'

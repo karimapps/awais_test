@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgyellow"
+    tools:context=".activities.RegisterActivity">
+
+    <ImageView
+        android:id="@+id/ivlogo"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:src="@drawable/logo">
+
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tvlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivlogo"
+        android:gravity="center_horizontal"
+        android:text="Login"
+        android:textColor="#fff"
+        android:textSize="@dimen/_40ssp"
+        android:textStyle="bold"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvlogin"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/border_et">
+
+            <ImageView
+                android:id="@+id/iv_email"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_margin="@dimen/_10sdp">
+
+            </ImageView>
+
+            <EditText
+                android:id="@+id/etemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/iv_email"
+                android:background="@null"
+                android:hint="Email"
+                android:imeOptions="actionNext"
+                android:inputType="textWebEmailAddress"></EditText>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/border_et">
+
+            <ImageView
+                android:id="@+id/iv_pass"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_margin="@dimen/_10sdp">
+
+            </ImageView>
+
+            <EditText
+                android:id="@+id/etpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/iv_pass"
+                android:background="@null"
+                android:hint="Password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"></EditText>
+
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/btnforgot"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="@drawable/border_button_blue"
+            android:text="Forgot?"
+            android:textColor="@color/btn_textcolor"
+            android:textStyle="bold">
+
+        </Button>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp">
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/border_button_blue"
+                android:text="Back"
+                android:textColor="@color/btn_textcolor"
+                android:textStyle="bold">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/border_button_blue"
+                android:text="Login"
+                android:textColor="@color/btn_textcolor"
+                android:textStyle="bold">
+
+            </Button>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_icons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bgbottom"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:background="@drawable/fb">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:background="@drawable/twitter">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:background="@drawable/insta">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:background="@drawable/google">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/avi"
+        style="@style/AVLoadingIndicatorView"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_centerInParent="true"
+
+        android:visibility="gone"
+        app:indicatorColor="#000"
+        app:indicatorName="BallSpinFadeLoaderIndicator" />
+
+    <RelativeLayout
+        android:id="@+id/bgbottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/border_black">
+
+        <View
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_3sdp"
+            android:layout_centerInParent="true"
+            android:background="#000"></View>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

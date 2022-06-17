@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#418FD0</color>
+    <color name="colorPrimaryDark">#22659C</color>
+    <color name="colorAccent">#DD0088</color>
+
+    <color name="bgyellow">#FFD95D</color>
+
+    <color name="btn_textcolor">#2699FB</color>
+
+
+    <color name="color_gray">#C6B4B4</color>
+    <color name="color_red">#FF0000</color>
+    <color name="color_green">#00FF00</color>
+    <color name="color_blue">#007dff</color>
+    <color name="color_yellow">#FFFF00</color>
+    <color name="color_pink">#FF00FF</color>
+
+
+    <!-- FAB Colours -->
+    <color name="FABNormal">#E91E63</color>
+    <color name="FABRipple">#F06292</color>
+
+    <!-- Drawable colors -->
+    <color name="itemSelected">#EEEEEE</color>
+    <color name="bottomBorder">#B0BEC5</color>
+
+    <!-- Common colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+
+
+
+
+
+</resources>
